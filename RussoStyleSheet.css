@@ -19,7 +19,7 @@ body {
 nav {
     text-align: center;
 }
-img {
+.russoLogo {
     width: 500px;
     margin-left:auto;
     margin-right:auto;
@@ -36,4 +36,22 @@ h2 {
 p {
     padding: 30px;
     font-style: "helvetica", "Arial", "sans-serif";
+}
+#russoMenu {
+    text-align: center;
+    text-decoration: underline;
+}
+.russoMenuText {
+    text-align: center;
+    margin-top:-30px;
+}
+.russoMenuBodyText {
+    margin-top:-40px;
+}
+.russoImg {
+   width:350px;
+}
+#menuContents {
+    padding-left:45%;
+    margin-top:-40px;
 }
