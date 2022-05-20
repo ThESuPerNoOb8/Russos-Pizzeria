@@ -55,7 +55,7 @@ p {
     padding-left:45%;
     margin-top:-40px;
 }
-#numberBox {
+.numberBox {
     width:30px;
 }
 .foodInput {
