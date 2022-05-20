@@ -1,14 +1,98 @@
 <!DOCTYPE html>
-<html>
-    <meta charset="utf-8">
+<html lang="en">
     <head>
+        <meta charset="utf-8">
         <title>Order</title>
         <link rel="stylesheet" type="text/css" href="RussoStyleSheet.css">
     </head>
     <body>
         <div id="container">
-            <h1>Sorry were having trouble reaching this page</h1>
-            <a href="index.html">Back</a>
+            <img class="russoLogo" src="RussoLogo.png" alt="Russo Pizzeria logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="order.html">Order</a>
+            </nav>
+            <hr>
+            <label for="salads"><strong>Salads:</strong></label>
+            <select class="foodInput" name="salads" id="salads">
+                <option value="none">None</option>
+                <option value="ARUGULA SALAD">ARUGULA SALAD</option>
+                <option value="MEDITERRANEAN">MEDITERRANEAN</option>
+                <option value="CUCUMBER & FETA">CUCUMBER & FETA</option>
+                <option value="PISTACHIO PESTO CHICKEN">PISTACHIO PESTO CHICKEN</option>
+                <option value="CHICKEN AVOCADO">CHICKEN AVOCADO</option>
+                <option value="INSALATA DE LA CASA">INSALATA DE LA CASA</option>
+                <option value="CAESAR">CAESAR</option>
+                <option value="GREEK">GREEK</option>
+            </select>
+            <input id="numberBox" type="number" min="1" max="99" value="1">
+            <br>
+            <label for="Soups"><strong>Soups:</strong></label>
+            <select class="foodInput" name="Soups" id="Soups">
+                <option value="none">None</option>
+                <option value="TOMATO BASIL">TOMATO BASIL</option>
+                <option value="TORTELLINI BRODO">TORTELLINI BRODO</option>
+                <option value="VEGAN MINESTRONE">VEGAN MINESTRONE</option>
+                <option value="SOUP & SALAD COMBO">SOUP &amp; SALAD COMBO</option>
+            </select>
+            <input id="numberBox" type="number" min="1" max="99" value="1">
+            <br>
+            <label for="Appetizers"><strong>Appetizers:</strong></label>
+            <select class="foodInput" name="Appetizers" id="Appetizers">
+                <option value="none">None</option>
+                <option value="CAULIFLOWER FRITTI">CAULIFLOWER FRITTI</option>
+                <option value="EAST COAST CALAMARI">EAST COAST CALAMARI</option>
+                <option value="MOZZARELLA FRITTI">MOZZARELLA FRITTI</option>
+                <option value="JUMBO LIBERTY WINGS">JUMBO LIBERTY WINGS</option>
+                <option value="INSALATA CAPRESE">INSALATA CAPRESE</option>
+                <option value="RUSSO’S HOMEMADE MEATBALLS">RUSSO’S HOMEMADE MEATBALLS</option>
+                <option value="TRUFFLE GARLIC KNOTS">TRUFFLE GARLIC KNOTS</option>
+                <option value="ITALIAN GARLIC BREAD">ITALIAN GARLIC BREAD</option>
+                <option value="POMODORO BRUSCHETTA">POMODORO BRUSCHETTA</option>
+            </select>
+            <input id="numberBox" type="number" min="1" max="99" value="1">
+            <br>
+            <label for="pizzaRusso"><strong>Pizza Russo:</strong></label>
+            <select class="foodInput" name="pizzaRusso" id="pizzaRusso">
+                <option value="none">None</option>
+                <option value="GIANT 28&bdquo; PARTY PIZZA">GIANT 28" PARTY PIZZA</option>
+                <option value="DOPPIO PEPPERONI™">DOPPIO PEPPERONI™</option>
+                <option value="HAWAIIAN PIZZA">HAWAIIAN PIZZA</option>
+                <option value="VEGETARIAN">VEGETARIAN</option>
+                <option value="ITALIAN MARKET">ITALIAN MARKET</option>
+                <option value="ITALIAN WORKS™">ITALIAN WORKS™</option>
+                <option value="MULBERRY™">MULBERRY™</option>
+                <option value="BROOKLYN SQUARE NONNA'S">BROOKLYN SQUARE NONNA'S</option>
+                <option value="BROOKLYN SQUARE PAESANO">BROOKLYN SQUARE PAESANO</option>
+            </select>
+            <input id="numberBox" type="number" min="1" max="99" value="1">
+            <br>
+            <label for="pizzaBianca"><strong>Pizza Bianca</strong></label>
+            <select class="foodInput" name="pizzaBianca" id="pizzaBianca">
+                <option value="none">None</option>
+                <option value="MARGHERITA">MARGHERITA</option>
+                <option value="CHICKEN RUSTICA">CHICKEN RUSTICA</option>
+                <option value="MEDITERRANEAN PIZZA">MEDITERRANEAN PIZZA</option>
+                <option value="SAUSAGE & RICOTTA">SAUSAGE & RICOTTA</option>
+                <option value="HEART HEALTHY VEGGIE™">HEART HEALTHY VEGGIE™</option>
+            </select>
+            <input id="numberBox" type="number" min="1" max="99" value="1">
+            <br>
+            <label for="pizzaToscana"><strong>Pizza Toscana</strong></label>
+            <select class="foodInput" name="pizzaToscana" id="pizzaToscana">
+                <option value="none">None</option>
+                <option value="BUFALINA">BUFALINA</option>
+                <option value="TRUFFLE MUSHROOM">TRUFFLE MUSHROOM</option>
+                <option value="TRUFFLE BURRATA & PROSCIUTTO">TRUFFLE BURRATA &amp; PROSCIUTTO</option>
+                <option value="TRUFFLE BURRATA POMODORO">TRUFFLE BURRATA POMODORO</option>
+                <option value="TRUFFLE BURRATA & RICOTTA">TRUFFLE BURRATA &amp; RICOTTA</option>
+                <option value="PROSCIUTTO & FIG">PROSCIUTTO &amp; FIG</option>
+                <option value="PROSCIUTTO & EGG">PROSCIUTTO &amp; EGG</option>
+            </select>
+            <input id="numberBox" type="number" min="1" max="99" value="1">
+            <br>
+            <button onclick="document.location='/order.html'" id="orderBtn">ORDER</button>
         </div>
     </body>
 </html>

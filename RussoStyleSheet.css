@@ -55,3 +55,19 @@ p {
     padding-left:45%;
     margin-top:-40px;
 }
+#numberBox {
+    width:30px;
+}
+.foodInput {
+    font-family: cursive;
+    width:220px;
+}
+#orderBtn {
+    margin-top:10px;
+    width:200px;
+    height:50px;
+    background-color:darkred;
+    font-family:cursive;
+    color:white;
+    margin-left:38%;
+}
